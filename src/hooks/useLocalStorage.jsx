@@ -1,6 +1,6 @@
 import { useState } from 'react-redux';
 
-const useLocalStorage = (key, intialValue) => {
+export const useLocalStorage = (key, intialValue) => {
 
     const [storedValue, setStoredValue] = useState(() => {
 
